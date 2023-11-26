@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="img" ><a href="frontPage.html"><img style="z-index:1;" width="30" height="30" src="https://img.icons8.com/ios/50/left--v1.png" alt="left--v1"/></a></div>
+    <section class="todo">
+        <h1>Find it, love it, buy it</h1>
+        <div class="input">
+            <input type="text" class="input-field" id="todoInput" placeholder="Add a new Task.." maxlength="70" autofocus/>
+            <button class="btn">Add</button>
+        </div>
+        <ul class="scroll"> 
+            <li id="todoList" style="list-style-type: none;"></li>
+        </ul>
+            <div class="counter-container">
+                <p id="sentence"><span id="todoCount">0</span>-task remaining</p>
+                <button id="deleteButton" class="btn1">Delete All</button>
+            </div>
+    </section>
+
+</body>
+<script src="script3.js"></script>
+</html>
